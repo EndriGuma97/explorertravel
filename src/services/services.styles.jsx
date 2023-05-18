@@ -72,8 +72,11 @@ display: grid;
   column-gap: 64px;
   row-gap: 96px;
   grid-template-columns: repeat(3, 1fr);
-  @media (max-width: 520px) {
-    grid-template-columns: repeat(2, 1fr)
+  @media (max-width: 540px) {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 20px;
+ 
 
   }
 

@@ -10,7 +10,7 @@ align-items: center;
 }
 
 @media (max-width: 520px) { 
-  grid-template-columns: 60fr 40fr;
+  grid-template-columns: 65fr 35fr;
 }
 `
 
@@ -21,7 +21,7 @@ padding: 96px;
 }
 
 @media (max-width: 600px) { 
-  padding: 48px;
+  padding: 38px;
 }
 `
 
@@ -33,6 +33,9 @@ column-gap: 80px;
 
 @media (max-width: 850px) { 
   grid-template-columns: 1fr;
+}
+@media (max-width: 520px) {
+  row-gap: 32px;
 }
 `
 
